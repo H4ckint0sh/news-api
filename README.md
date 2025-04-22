@@ -3,6 +3,60 @@
 > [!WARNING]
 > Work in progress
 
+## ✨ Features
+
+- ⚡ Express.js as the backend framework
+- 📋 Swagger for API documentations
+- 🛠 Typescript for strong type support
+- 📄 Linting with ESlint and Prettier
+
+## Endpoints
+
+### Authentication
+
+- GET /api/auth/login
+- POST /api/auth/register
+
+### Users
+
+- GET /api/users
+- GET /api/users/:user_id
+- POST /api/users/
+- DELETE /api/users/:user_id
+- PATCH /api/users/:user_id
+
+### Articles
+
+- GET /api/articles with pagination and sorting
+- GET /api/articles/:article_id
+- POST /api/articles/
+- DELETE /api/articles/:article_id
+- PATCH /api/articles/:article_id
+
+### Comments
+
+- GET /api/comments
+- GET /api/comments/:comment_id
+- POST /api/comments/
+- DELETE /api/comments/:comment_id
+- PATCH /api/comments/:comment_id
+
+### Topics
+
+- GET /api/topics
+- GET /api/topics/:topic_id
+- POST /api/topics/
+- DELETE /api/topics/:topic_id
+- PATCH /api/topics/:topic_id
+
+### Roles
+
+- GET /api/roles
+- GET /api/roles/:role_id
+- POST /api/roles/
+- DELETE /api/roles/:role_id
+- PATCH /api/roles/:role_id
+
 ## Getting Started
 
 ### Prerequisites
