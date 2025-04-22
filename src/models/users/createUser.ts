@@ -4,7 +4,7 @@ import { HttpError } from "#middleware/error-handling.js";
 export const createUser = async (userData: User): Promise<User> => {
   try {
     const createdUser = await User.create({
-      ...userData,
+      ...userData.toJSON(),
     });
 
     return createdUser;
